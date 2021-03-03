@@ -1,0 +1,38 @@
+#NAME: SHUBHAM SHARMA
+#ROLL NO: 18i190002
+#COURSE: MSC PHD OR
+reset;
+option solver SNOPT;
+model ex3b.mod;
+data ex3b.dat;
+solve;
+let x[1]:=0.67;
+let y[1]:=0.67;
+let x[2]:=1.34;
+let y[2]:=0.67;
+let x[3]:=0.67;
+let y[3]:=3.35;
+let x[4]:=0.67*3;
+let y[4]:=0.67*3;
+let x[5]:=0.7;
+let y[5]:=0.67*3;
+let x[6]:=0.67*5;
+let y[6]:=0.67;
+let x[7]:=0.55;
+let y[7]:=0.57*3;
+let x[8]:=0.57*5;
+let y[8]:=0.57*2;
+let x[9]:=0.7;
+let y[9]:=0.35*2;
+let x[10]:=0.7*2;
+let y[10]:=0.7;
+let x[11]:=4;
+let y[11]:=3;
+let x[12]:=2;
+let y[12]:=1;
+solve;
+display x,y;
+#display con1.ub,con1.lb,con1.body;
+#display con2.ub,con2.lb,con2.body;
+#display con3.ub,con3.lb,con3.body;
+#display con4.ub,con4.lb,con4.body;

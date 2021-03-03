@@ -1,0 +1,29 @@
+param N:=4;
+
+param LOT:=
+1 0.20
+2 0.27
+3 0.22
+4 0.35;
+
+param STORIES:=
+1 1
+2 1
+3 2
+4 2;
+
+param BEDROOMS:=
+1 2
+2 3
+3 4
+4 5;
+
+param PROFIT:=
+1 400000
+2 500000
+3 600000
+4 800000;
+
+param TOTAL_LAND:= 20;
+param ONE_STOREY:=40;
+param BED:=50;

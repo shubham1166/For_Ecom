@@ -1,0 +1,24 @@
+#NAME: SHUBHAM SHARMA
+#ROLL NO: 18i190002
+#COURSE: MSC PHD OR
+param N=12;
+param MAXIMUM_INVENTORY = 10000;
+#maximum inventory space
+param COSTDEC = 12;
+#as the cost increases by rs 12 when production is decreased from one month to the next
+param COSTINC = 28; 
+#as the cost increases by rs 28 when production is increased from one month to the next
+param SALES :=  # The sales forcast for month i (in units), i = 0-12
+0 0
+1 4000
+2 6000
+3 8000
+4 12000
+5 16000
+6 20000
+7 20000
+8 12000
+9 8000
+10 6000
+11 4000
+12 4000;

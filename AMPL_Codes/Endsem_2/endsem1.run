@@ -1,0 +1,6 @@
+reset;
+option solver cplex;
+model endsem1.mod;
+data endsem1.dat;
+solve;
+display x;

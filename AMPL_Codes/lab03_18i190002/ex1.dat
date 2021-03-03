@@ -1,0 +1,38 @@
+#NAME: SHUBHAM SHARMA
+#ROLL NO: 18i190002
+#COURSE: MSC PHD OR
+#defining the set that has diffrent regions, eg-A,B,C...etc
+set REGION:= 'a' 'b' 'c' 'd' 'e' 'f';
+#defining the function that has diffrent elements like fooda , machineryb...etc , then fooda will tell the amount(in tons) of food taken from a.   
+set FUNCTION:= 'fooda' 'foode' 'machineryb' 'machineryc' 'c.d_c' 'c.d_f' 'c.nd_f';
+#defining the function that will tell us the resorces that we want such as food, machinery...etc
+set FUNCTION2:='food' 'machinery' 'c.d' 'c.nd';
+#this matrix is the reqirement of each REGION of food , machinery....etc
+param AVAILM:
+    food machinery c.d c.nd:=
+a   5    30        20  10
+b   15   100       40  30
+c   20   80        50  40
+d   30   10        70  60
+e   10   60        30  20
+f   25   60        60  50;
+#Where dij = distance travelled when when region i is taking something from other region , where i € REGION and j € FUNCTION . Eg , dE,machineryb is the distance(km) when E is taking machiner from B.
+
+param DISTANCEM:
+    fooda    foode   machineryb   machineryc   c.d_c   c.d_f   c.nd_f:=
+a   0        600     500          200          200     300     300
+b   500      125     0            400          400     200     200
+c   200      350     400          0            0       100     100
+d   75       550     500          150          150     400     400
+e   600      0       125          350          350     300     300
+f   300      300     200          100          100     0       0;
+#Where cij = cost/ton/km when when region i is taking something from other region , where i € REGION and j € FUNCTION
+
+param COST:
+    fooda    foode   machineryb   machineryc   c.d_c   c.d_f   c.nd_f:=
+a   0        0.4     0.4          0.4          0.4     0.4     0.4
+b   0.4      0.4     0            0.4          0.4     0.4     0.4
+c   0.4      0.4     0.4          0            0       0.6     0.6
+d   0.6      0.4     0.4          0.4          0.4     0.4     0.4
+e   0.4      0       0.4          0.4          0.4     0.4     0.4
+f   0.4      0.4     0.4          0.6          0.6     0       0;

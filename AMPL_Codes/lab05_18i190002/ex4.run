@@ -1,0 +1,45 @@
+#NAME: SHUBHAM SHARMA
+#ROLL NO: 18i190002
+#COURSE: MSC PHD OR
+reset;
+model ex4.mod;
+option solver SNOPT;
+solve;
+display objective;
+display x1,x2;
+display con.ub,con.body,con.lb;
+let x1:=1;
+let x2:=34;
+display objective;
+display x1,x2;
+display con.ub,con.body,con.lb;
+let x1:=3;
+let x2:=4;
+display objective;
+display x1,x2;
+display con.ub,con.body,con.lb;
+let x1:=16;
+let x2:=40;
+display objective;
+display x1,x2;
+display con.ub,con.body,con.lb;
+let x1:=18;
+let x2:=4;
+display objective;
+display x1,x2;
+display con.ub,con.body,con.lb;
+let x1:=15;
+let x2:=7;
+display objective;
+display x1,x2;
+display con.ub,con.body,con.lb;
+let x1:=19;
+let x2:=20;
+display objective;
+display x1,x2;
+display con.ub,con.body,con.lb;
+let x1:=10;
+let x2:=12;
+display objective;
+display x1,x2;
+display con.ub,con.body,con.lb;

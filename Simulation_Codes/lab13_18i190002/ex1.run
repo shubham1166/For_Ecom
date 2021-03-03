@@ -1,0 +1,11 @@
+#NAME: Shubham Sharma
+#Msc PhD OR
+#Roll no: 18i190002
+reset;
+option solver cplex;
+option cplex_options 'timing 1';
+model ex1.mod;
+data ex1.dat;
+solve;
+display z;
+#display x;

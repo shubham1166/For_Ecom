@@ -1,0 +1,15 @@
+#NAME: SHUBHAM SHARMA
+#ROLL NO: 18i190002
+#COURSE: MSC PHD OR
+param N:=5;#given the value N=2 so that we can define each of the cordinate.
+set CORD:= 'x','y';#will help us defing the cordinates of each cordinates.
+param LOCATION: #will tell us the locations of each corners.
+ 'x' 'y'=
+ 1 0 0
+ 2 -100 -100
+ 3 0 -200
+ 4 150 -50
+ 5 200 200; #5 denotes the circle.
+param RADIUS:=30; #The radius of the circle.
+param STOREX:=15;#x coordinate of the store-house.
+param STOREY:=20;#y coordinate of the store-house.

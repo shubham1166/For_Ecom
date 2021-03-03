@@ -1,0 +1,10 @@
+#NAME: SHUBHAM SHARMA
+#ROLL NO: 18i190002
+#COURSE: MSC PHD OR
+reset;
+option solver gurobi;
+model ex2.mod;
+solve;
+display x11,x13,x15,x22,x24,x31,x32,x33,x35,x41,x42,x43,x45,x51,x53,x54,x64,x65;
+display con1.lb,con1.ub,con1.body,con2.lb,con2.ub,con2.body,con3.lb,con3.ub,con3.body,con4.lb,con4.ub,con4.body,con5.lb,con5.ub,con5.body,con6.lb,con6.ub,con6.body,con7.lb,con7.ub,con7.body,con8.lb,con8.ub,con8.body,con9.lb,con9.ub,con9.body,con10.lb,con10.ub,con10.body,con11.lb,con11.ub,con11.body;
+

@@ -1,0 +1,26 @@
+#NAME: SHUBHAM SHARMA
+#ROLL NO: 18i190002
+#COURSE: MSC PHD OR
+param N:=8;#N is 8 as there are 8 number of feeders.
+param M:=3;#M is 3 as there are cordinates are 3 dimensional
+param QUANTITY:= #this will tell us the weights of the diffrent facilities. 
+1 6
+2 9
+3 3
+4 12
+5 5
+6 8
+7 8 
+8 5;
+param CORDINATE: #this will tell us the cordinates of the diffrent facilities.
+ 1 2 3=
+1 0.5 0 0
+2 10 10 0
+3 0  0  5
+4 2  10 0
+5 3  0  15
+6 8  0  8
+7 0 12  0
+8 15 1  0;
+
+

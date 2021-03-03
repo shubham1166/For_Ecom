@@ -1,0 +1,32 @@
+#NAME: SHUBHAM SHARMA
+#ROLL NO: 18i190002
+#COURSE: MSC PHD OR
+set REGION:= 'a' 'b' 'c' 'd' 'e' 'f';
+set FUNCTION:= 'fooda' 'foode' 'machineryb' 'machineryc' 'c.d_c' 'c.d_f' 'c.nd_f';
+set FUNCTION2:='food' 'machinery' 'c.d' 'c.nd';
+param AVAILM:
+    food machinery c.d c.nd:=
+a   10    30        20  10
+b   30   100       40  30
+c   40   80        50  40
+d   60   10        70  60
+e   20   60        30  20
+f   50   60        60  50;
+
+param DISTANCEM:
+    fooda    foode   machineryb   machineryc   c.d_c   c.d_f   c.nd_f:=
+a   0        600     500          200          200     300     300
+b   500      125     0            400          400     200     200
+c   200      350     400          0            0       100     100
+d   75       550     500          150          150     400     400
+e   600      0       125          350          350     300     300
+f   300      300     200          100          100     0       0;
+
+param COST:
+    fooda    foode   machineryb   machineryc   c.d_c   c.d_f   c.nd_f:=
+a   0        0.4     0.4          0.4          0.4     0.4     0.4
+b   0.4      0.4     0            0.4          0.4     0.4     0.4
+c   0.4      0.4     0.4          0            0       0.6     0.6
+d   0.6      0.4     0.4          0.4          0.4     0.4     0.4
+e   0.4      0       0.4          0.4          0.4     0.4     0.4
+f   0.4      0.4     0.4          0.6          0.6     0       0;

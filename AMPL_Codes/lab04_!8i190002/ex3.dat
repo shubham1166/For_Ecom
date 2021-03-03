@@ -1,0 +1,34 @@
+#NAME: SHUBHAM SHARMA
+#ROLL NO: 18i190002
+#COURSE: MSC PHD OR
+param N:= 12;
+param V:=
+0 0#we are taking variable cost of month 0 as 0 as we know there is no production in month 0.
+1 250
+2 300
+3 700
+4 500
+5 450
+6 190
+7 200
+8 400
+9 200
+10 250
+11 350
+12 150;
+param D:=
+0 0 #we are giving the value to the demand as zero so that wecan write our code easily
+1 2000
+2 1000
+3 4000
+4 5000
+5 500
+6 3000
+7 8000
+8 1000
+9 2000
+10 4000
+11 3000
+12 6000;
+param INVENTORY_COST:=45;
+param MAX_PRODUCTION:=15000;

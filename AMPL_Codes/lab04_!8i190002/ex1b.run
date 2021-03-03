@@ -1,0 +1,10 @@
+#NAME: SHUBHAM SHARMA
+#ROLL NO: 18i190002
+#COURSE: MSC PHD OR
+reset;
+option solver gurobi;
+model ex1b.mod;
+data ex1b.dat;
+solve;
+display cap;
+display x;

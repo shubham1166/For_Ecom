@@ -1,0 +1,7 @@
+reset;
+model cohesive.mod;
+data cdata3.dat;
+option solver gurobi;
+solve;
+display Co;
+

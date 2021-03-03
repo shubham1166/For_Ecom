@@ -1,0 +1,18 @@
+#NAME: SHUBHAM SHARMA
+#ROLL NO: 18i190002
+#COURSE: MSC PHD OR
+reset;
+option solver SNOPT;
+model ex3.mod;
+data ex3.dat;
+solve;
+let x[1]:=0.67;
+let y[1]:=0.67;
+let x[2]:=1.34;
+let y[2]:=0.67;
+solve;
+display x,y;
+display con1.ub,con1.lb,con1.body;
+display con2.ub,con2.lb,con2.body;
+display con3.ub,con3.lb,con3.body;
+display con4.ub,con4.lb,con4.body;

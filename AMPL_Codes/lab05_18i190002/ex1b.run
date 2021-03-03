@@ -1,0 +1,11 @@
+#NAME: SHUBHAM SHARMA
+#ROLL NO: 18i190002
+#COURSE: MSC PHD OR
+reset;
+option solver SNOPT;
+model ex1b.mod;
+data ex1b.dat;
+solve;
+display sqrt((CORDINATE[2,1]-a)^2 + (CORDINATE[2,2]-b)^2 + (CORDINATE[2,3]-c)^2);
+#above is the distance of the optimal point from the Feeder-B.
+display QUANTITY[2];

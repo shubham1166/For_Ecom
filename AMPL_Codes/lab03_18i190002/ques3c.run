@@ -1,0 +1,13 @@
+#NAME: SHUBHAM SHARMA
+#ROLL NO: 18i190002
+#COURSE: MSC PHD OR
+
+reset;
+option solver gurobi;
+model ex3c.mod;
+data ex3c.dat;
+solve;
+display qum;
+display x;
+display sum{i in MACHINE,j in ITEMS} (x[i,j]*COSTM[i,j]);
+display sum{i in MACHINE,j in ITEMS} (x[i,j]*TM[i,j]); 

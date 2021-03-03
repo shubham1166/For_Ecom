@@ -1,0 +1,59 @@
+#NAME: SHUBHAM SHARMA
+#ROLL NO: 18i190002
+#COURSE: MSC PHD OR
+set ITEMS := 'A1' 'A2' 'A3' 'A4' 'A5' 'A6' 'A7' 'A8' 'A9' 'A10';#giving values to the set ITEMS.
+set AMT := 'Cr' 'Zn' 'Cu';#giving values to the set AMT
+
+param MATRIX:
+    A1  A2  A3  A4  A5  A6  A7  A8  A9  A10:=
+Cr	0.80  0.75  0.75  0.60  0.55  0.55  0.40  0.35  0.30   0.30
+Zn	0.15  0.15  0.10  0.20  0.25  0.10  0.50  0.15  0.30   0.55
+Cu	0.05  0.10  0.15  0.20  0.20  0.35  0.10  0.50  0.40   0.15;
+
+param HOUSE_STOCK:=
+#resources #availability
+A1		10 
+A2		12	
+A3		 0
+A4		 8
+A5		15
+A6		15
+A7		12
+A8		10
+A9		10
+A10		 9;
+
+param HOUSE_COST:=
+#resources #availability
+A1		35 
+A2		50	
+A3		58
+A4		60
+A5		44
+A6		39
+A7		45
+A8		55
+A9		35
+A10		40;
+
+param PURCHASE_COST:=
+#resources #costs
+A1		72 
+A2		95	
+A3	   110
+A4	   125
+A5		88
+A6		74
+A7		95
+A8	   115
+A9		60
+A10		84;
+     
+
+param MAXT:=
+#compounds #availability
+Cr	 40
+Zn	 35
+Cu	 25;
+
+    

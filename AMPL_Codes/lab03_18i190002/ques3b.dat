@@ -1,0 +1,36 @@
+#NAME: SHUBHAM SHARMA
+#ROLL NO: 18i190002
+#COURSE: MSC PHD OR
+#NAME: SHUBHAM SHARMA
+#ROLL NO: 18i190002
+#COURSE: MSC PHD OR
+
+set MACHINE:= 'm1' 'm2' 'm3';#set machine is defined 
+set ITEMS:= 'hammer' 'spanner' 'cutter';#set items is defined
+param TM: #represents the per unit time of inspection
+    hammer spanner cutter:=
+m1	32     32      27
+m2  30     30      26
+m3  34     32      29;
+
+param MATM: #Where mij is the material consumed /unit by machine i while making item j
+
+    hammer spanner cutter:=
+m1	3      2       2
+m2  4      1.5     2.5
+m3  2      3       3;
+
+param CAPACITYM: #Where aij is the capacity consumed /unit by machine i on item j.
+    hammer spanner cutter:=
+m1	48     45      53
+m2  45     55      50
+m3  48     50      48;
+
+param POLLUTIONM: #Where aij is the capacity consumed /unit by machine i on item j.
+    hammer spanner cutter:=
+m1	7      12      10
+m2  9      9       9
+m3  13     12      8;
+
+
+

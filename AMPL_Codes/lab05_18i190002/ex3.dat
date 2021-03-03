@@ -1,0 +1,11 @@
+#NAME: SHUBHAM SHARMA
+#ROLL NO: 18i190002
+#COURSE: MSC PHD OR
+param N:=2;#the number of coins
+set S:= 'A','B','C';
+set LINES:= 'L1','L2','L3';
+param VALUE: A B C= #values of diffrent A,B,C.
+L1 1 0 0 
+L2 0 1 0
+L3 1 1 -5;
+param radius:=0.67;#radius of each coin.

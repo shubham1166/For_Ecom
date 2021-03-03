@@ -1,0 +1,13 @@
+#NAME: SHUBHAM SHARMA
+#ROLL NO: 18i190002
+#COURSE: MSC PHD OR
+reset;
+model ex2.mod;
+data ex2.dat;
+option solver SNOPT;
+solve;
+let xf:=1;
+let yf:=0.5;
+solve;
+display xl,yl,xf,yf;
+display dist;

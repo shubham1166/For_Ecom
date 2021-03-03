@@ -1,0 +1,1 @@
+This is a code for the assignments from CS 747, in which an MDP is been solved with three different methods out of which one way is LPP, and the coding is done using PuLP.

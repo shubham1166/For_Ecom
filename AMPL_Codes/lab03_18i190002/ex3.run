@@ -1,0 +1,12 @@
+#NAME: SHUBHAM SHARMA
+#ROLL NO: 18i190002
+#COURSE: MSC PHD OR
+
+reset;
+option solver gurobi;
+model ex3.mod;
+data ex3b.dat;
+solve;
+display cost;
+display x;
+display con1.lb,con1.ub,con1.body,con2.lb,con2.ub,con2.body,con3.lb,con3.ub,con3.body,con4.lb,con4.ub,con4.body;

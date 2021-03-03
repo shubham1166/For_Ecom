@@ -1,0 +1,32 @@
+#NAME: SHUBHAM SHARMA
+#ROLL NO: 18i190002
+#COURSE: MSC PHD OR
+set CANDS := 'KC' 'DH' 'HB' 'SC' 'KS' 'NK';#defining the set CANDS
+set DAYS := 'MON' 'TUE' 'WED' 'THU' 'FRI';#defining the set DAYS
+param DAYS_HOURS:= 14; #giving the value to parameter DAYS_HOURS
+#giving the values to parameter AVAIL_HOURS
+param AVAIL_HOURS: 
+	
+	MON TUE WED THU FRI:=
+KC 	  6   0   6   0   6
+DH 	  0   6   0   6   0
+HB 	  4   8	  4   0   4
+SC 	  5	  5	  5	  0	  5
+KS 	  3	  0   3	  8   0
+NK 	  0   0   0   6   2;
+#giving the values to parameter WAGE_RATE
+param WAGE_RATE:=
+KC	150
+DH	152
+HB	148
+SC	146
+KS	166
+NK	176;
+#giving the values to parameter WORK_HOUR
+param WORK_HOUR:=
+KC	8
+DH	8
+HB	8	
+SC	8	
+KS	7
+NK	7;
